@@ -320,7 +320,7 @@ deepseek:
 
 ## 👨‍💻 作者
 
-- Author: shenjin
+- Author: jinjin
 - Date: 2026/4/24
 
 ## 🔄 更新日志
