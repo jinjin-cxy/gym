@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/gym_management_system?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: jinjin666
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.jinjin.gymmanagementsystem.pojo
+
+deepseek:
+  api:
+    key: sk-2c7610820bcf43339aaed47cf761xxxx
+    url: https://api.deepseek.com/chat/completions
+  model: "deepseek-chat"
